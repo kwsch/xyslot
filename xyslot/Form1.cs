@@ -108,9 +108,9 @@ namespace xyslot
             File.WriteAllText(destFolderAndPrefix + "GoodRod" + destExt, GoodRod, Encoding.UTF8);
             File.WriteAllText(destFolderAndPrefix + "SuperRod" + destExt, SuperRod, Encoding.UTF8);
 
-            File.WriteAllText(destFolderAndPrefix + "Horde1" + destExt, OldRod, Encoding.UTF8);
-            File.WriteAllText(destFolderAndPrefix + "Horde2" + destExt, GoodRod, Encoding.UTF8);
-            File.WriteAllText(destFolderAndPrefix + "Horde3" + destExt, SuperRod, Encoding.UTF8);
+            File.WriteAllText(destFolderAndPrefix + "Horde1" + destExt, Horde1, Encoding.UTF8);
+            File.WriteAllText(destFolderAndPrefix + "Horde2" + destExt, Horde2, Encoding.UTF8);
+            File.WriteAllText(destFolderAndPrefix + "Horde3" + destExt, Horde3, Encoding.UTF8);
         }
         string Grass = "";
         string Yellow = "";
